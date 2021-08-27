@@ -8,7 +8,7 @@ Kalau mau menggunakan api bisa coba https://github.com/emsifa/api-wilayah-indone
 Contoh Pemakaian :
 
 ```javascript
-const validatorNIK = require('@ayubmm/validatornik');
+const validatorNIK = require('validatornik');
 
 //argumen bisa bertipe string
 console.log(validatorNIK('3503022705000002'));

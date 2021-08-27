@@ -1,24 +1,33 @@
 {
-  "name": "@ayubmm/validatornik",
+  "name": "validatornik",
   "version": "1.0.0",
   "description": "Validasi NIK Indonesia",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tokorame-Dev/validatorNIK.git"
+    "url": "git+https://github.com/ayubmm/validatorNIK.git"
   },
   "keywords": [
     "validator",
-    "nik",
-    "validasi"
+    "nik"
   ],
   "author": "ayubmm",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Tokorame-Dev/validatorNIK/issues"
+    "url": "https://github.com/ayubmm/validatorNIK/issues"
   },
-  "homepage": "https://github.com/Tokorame-Dev/validatorNIK#readme"
+  "homepage": "https://github.com/ayubmm/validatorNIK#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "jest": "^27.0.6",
+    "prettier": "^2.3.2"
+  }
 }
